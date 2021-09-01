@@ -1,0 +1,29 @@
+Q) Explain the flow of controls in exception handling programs with example.
+Ans) Exceptions are abnormal conditions, In Java, an exception is an event that disrupts the normal flow of the program. It is an object which is thrown at runtime.
+The core advantage of exception handling is to maintain the normal flow of the application. An exception normally disrupts the normal flow of the application.
+
+The flow of control in exceptions
+Exception handling starts from the try-block, control enters the try block, If a statement in the try block raised an exception, then the rest of the try block doesn’t execute, and control transfers to the corresponding catch block. After executing the catch block, the control will be transferred to the finally block if present, and then the rest program will be executed. 
+
+If a statement in try-block is raised an exception and it is not handled in catch block then the default handling mechanism is followed. If finally the block is present, it will be executed followed by the default handling mechanism.
+
+If an exception doesn’t occur in try-block, the catch block never runs as they are only meant to be run when an exception occurs. if finally block is present it will be executed followed by the rest of the program.
+
+The finally block will be executed no matter an exception is handled or not handle.
+Program:
+public class ExceptionHandling {
+    public static void main(String[] args) {
+        try {
+            // code that may raise exception
+            int data = 100 / 0;
+        } catch (ArithmeticException e) {
+            System.out.println(e);
+        }
+        // rest code of the program
+        System.out.println("rest of the code...");
+    }
+}
+/**** Output of the program
+java.lang.ArithmeticException: / by zero
+rest of the code...
+*/
