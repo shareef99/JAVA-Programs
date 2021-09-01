@@ -20,3 +20,15 @@ public class PrimeNumberFromConsole {
         else System.out.println( number + " is not prime");
     }
 }
+
+/*** Output of the program
+
+Enter number: 
+9
+9 is not prime
+
+Enter number: 
+11
+9 is prime
+
+****/
