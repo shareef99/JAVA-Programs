@@ -29,6 +29,6 @@ Enter number:
 
 Enter number: 
 11
-9 is prime
+11 is prime
 
 ****/
