@@ -15,20 +15,19 @@ public class PrimeNumberFromConsole {
         int number;
         System.out.println("Enter number: ");
         number = readNumber.nextInt();
-        if(isPrime(number))
+        if (isPrime(number))
             System.out.println(number + " is prime");
-        else System.out.println( number + " is not prime");
+        else
+            System.out.println(number + " is not prime");
+        readNumber.close();
     }
 }
 
-/*** Output of the program
-
-Enter number: 
-9
-9 is not prime
-
-Enter number: 
-11
-11 is prime
-
-****/
+/***
+ * Output of the program
+ * 
+ * Enter number: 9 9 is not prime
+ * 
+ * Enter number: 11 11 is prime
+ * 
+ ****/
