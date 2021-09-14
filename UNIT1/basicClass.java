@@ -1,0 +1,22 @@
+package UNIT1;
+
+class Box {
+    int w;
+    int h;
+    int d;
+}
+
+public class basicClass {
+    public static void main(String[] args) {
+        Box box = new Box();
+        // Assign values to box.
+        box.w = 1;
+        box.h = 2;
+        box.d = 3;
+        double vol = box.w * box.d * box.h;
+        System.out.println("Volume of box is " + vol);
+    }
+}
+
+// Output:-
+// Volume of box is 6.0
