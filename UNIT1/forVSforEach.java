@@ -20,3 +20,7 @@ public class forVSforEach {
 
     }
 }
+
+// Output: -
+// Sum is: 45
+// Sum is: 45
