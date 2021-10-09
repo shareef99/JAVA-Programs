@@ -19,3 +19,7 @@ public class Throw {
         }
     }
 }
+
+// Output :-
+// Caught inside demo program.
+// Recaught: java.lang.NullPointerException: Demo

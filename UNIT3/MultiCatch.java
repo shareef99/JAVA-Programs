@@ -17,7 +17,7 @@ public class MultiCatch {
     }
 }
 
-// Output:-
+// Output :-
 // If a === 0
 // A = 0
 // Divided by zero

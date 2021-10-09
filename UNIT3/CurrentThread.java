@@ -17,3 +17,11 @@ public class CurrentThread {
         }
     }
 }
+
+// Output :-
+// After name change Thread[My Thread,5,main]
+// 5
+// 4
+// 3
+// 2
+// 1

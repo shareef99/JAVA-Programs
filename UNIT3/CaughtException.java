@@ -12,6 +12,6 @@ public class CaughtException {
     }
 }
 
-// Output:-
+// Output :-
 // You are trying to divide by zero
 // Rest of the code

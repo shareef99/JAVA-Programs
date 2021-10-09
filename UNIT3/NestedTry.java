@@ -23,4 +23,6 @@ public class NestedTry {
     }
 }
 
-//
+// Output:-
+// A = 2
+// Array index out of bounds

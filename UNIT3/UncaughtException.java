@@ -7,5 +7,5 @@ public class UncaughtException {
     }
 }
 
-// Output:-
+// Output :-
 // Exception in thread "main" java.lang.ArithmeticException: / by zero

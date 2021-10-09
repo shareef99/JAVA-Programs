@@ -24,3 +24,8 @@ public class CustomException {
         }
     }
 }
+
+// Output :-
+// Given number: 1
+// Given number: 20
+// Number is greater than 10
