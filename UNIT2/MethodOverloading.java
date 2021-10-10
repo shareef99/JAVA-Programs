@@ -1,9 +1,9 @@
 package UNIT2;
 
-class superClass {
+class ParentClass {
     int i, j;
 
-    superClass(int a, int b) {
+    ParentClass(int a, int b) {
         i = a;
         j = b;
     }
@@ -13,10 +13,10 @@ class superClass {
     }
 }
 
-class subClass extends superClass {
+class ChildClass extends ParentClass {
     int k;
 
-    subClass(int a, int b, int c) {
+    ChildClass(int a, int b, int c) {
         super(a, b);
         k = c;
     }
@@ -28,7 +28,7 @@ class subClass extends superClass {
 
 public class MethodOverloading {
     public static void main(String[] args) {
-        subClass subClass = new subClass(1, 2, 3);
+        ChildClass subClass = new ChildClass(1, 2, 3);
         subClass.show("This is k: ");
         subClass.show();
     }
