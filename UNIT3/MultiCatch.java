@@ -1,5 +1,9 @@
 package UNIT3;
 
+// Q6) How does a try statement determine which catch clause should be used to
+// handle an exception. Give an example. 
+// Q10) Write a program to show the handling of multiple exceptions.
+
 public class MultiCatch {
     public static void main(String[] args) {
         try {

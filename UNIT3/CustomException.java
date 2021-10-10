@@ -1,5 +1,9 @@
 package UNIT3;
 
+/**
+ * Q4) Write a program for creating and using user-defined exceptions.
+ */
+
 class GreaterThanTen extends Exception {
     public String toString() {
         return "Number is greater than 10";
