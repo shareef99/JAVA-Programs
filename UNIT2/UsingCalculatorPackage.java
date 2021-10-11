@@ -16,3 +16,6 @@ public class UsingCalculatorPackage {
     }
 
 }
+
+// Output :-
+// 30
