@@ -44,6 +44,7 @@ public class RunnableThread {
     }
 }
 
+// Output:-
 // Child thread: Thread[Demo Thread,5,main]
 // Main Thread: 5
 // Child Thread: 5

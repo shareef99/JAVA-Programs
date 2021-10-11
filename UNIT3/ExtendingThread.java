@@ -41,3 +41,18 @@ public class ExtendingThread {
         System.out.println("Main thread exiting.");
     }
 }
+
+// Output:-
+// Child thread: Thread[Demo Thread,5,main]
+// Main Thread: 5
+// Child Thread: 5
+// Child Thread: 4
+// Main Thread: 4
+// Child Thread: 3
+// Child Thread: 2
+// Main Thread: 3
+// Child Thread: 1
+// Exiting child thread.
+// Main Thread: 2
+// Main Thread: 1
+// Main thread exiting.
