@@ -7,11 +7,11 @@ package UNIT3;
 public class MultiCatch {
     public static void main(String[] args) {
         try {
-            int a = 1;
+            int a = 0;
             System.out.println("A = " + a);
             int b = 42 / a;
-            int c[] = { 5 };
-            c[2] = 99;
+            int c[] = { 5, 10 };
+            c[3] = 99;
         } catch (ArithmeticException e) {
             System.out.println("Divided by zero");
         } catch (ArrayIndexOutOfBoundsException e) {
