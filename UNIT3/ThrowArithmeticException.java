@@ -1,6 +1,9 @@
 package UNIT3;
 
-// Under constructions
+/**
+ * Q2) Illustrate with an example the throw statement by manually throwing an
+ * arithmetic exception.
+ */
 
 public class ThrowArithmeticException {
 
@@ -9,7 +12,9 @@ public class ThrowArithmeticException {
             throw new ArithmeticException();
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic exception");
-            throw e;
         }
     }
 }
+
+// Output :-
+// Arithmetic exception

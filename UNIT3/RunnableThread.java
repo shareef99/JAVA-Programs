@@ -6,11 +6,9 @@ package UNIT3;
  */
 
 class NewThread implements Runnable {
-    Thread t;
-
     NewThread() {
         // Create a new, second thread
-        t = new Thread(this, "Demo Thread");
+        Thread t = new Thread(this, "Demo Thread");
         System.out.println("Child thread: " + t);
         t.start(); // Start the thread
     }

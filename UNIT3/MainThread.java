@@ -1,6 +1,6 @@
 package UNIT3;
 
-public class CurrentThread {
+public class MainThread {
     public static void main(String[] args) {
         Thread t = Thread.currentThread();
         System.out.println("Current thread: " + t);
@@ -19,6 +19,7 @@ public class CurrentThread {
 }
 
 // Output :-
+// Current thread:Thread[main,5,main]
 // After name change Thread[My Thread,5,main]
 // 5
 // 4

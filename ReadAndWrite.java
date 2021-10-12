@@ -1,4 +1,5 @@
 import java.io.*;
+
 class ReadAndWrite {
     public static void main(String args[]) {
         FileReader fr = null;
