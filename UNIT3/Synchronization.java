@@ -25,7 +25,7 @@ class Caller implements Runnable {
     CallMe target;
     Thread t;
 
-    public Caller(CallMe targ, String s) {
+    Caller(CallMe targ, String s) {
         target = targ;
         msg = s;
         t = new Thread(this);

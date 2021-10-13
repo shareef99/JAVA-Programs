@@ -1,5 +1,10 @@
 package UNIT3;
 
+/**
+ * Q11) Write a program to create threads where one thread prints 1 to 100 and
+ * another thread prints 1 to 200.
+ */
+
 class ThreadOne extends Thread {
     public void run() {
         for (int i = 0; i <= 100; i++) {
