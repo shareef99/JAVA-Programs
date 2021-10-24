@@ -1,5 +1,5 @@
 # Java Lab Programs
 
-**All java lab programs according to sets**
+**All java lab programs as per syllabus with outputs.**
 
 _#HappyLearning_
