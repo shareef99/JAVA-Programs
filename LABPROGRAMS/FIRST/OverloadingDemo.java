@@ -1,7 +1,7 @@
 package FIRST;
 
 /**
- * Q1. Write a Java program to illustrate the concept of class with method
+ * Q1. A) Write a Java program to illustrate the concept of class with method
  * overloading.
  */
 

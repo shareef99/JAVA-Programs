@@ -38,3 +38,9 @@ public class LinkedListDemo {
         System.out.println("ll after change: " + ll);
     }
 }
+
+// Output:
+// Original contents of ll: [A, A2, F, B, D, E, C, Z]
+// Contents of ll after deletion: [A, A2, D, E, C, Z]
+// ll after deleting first and last: [A2, D, E, C]
+// ll after change: [A2, D, E Changed, C]

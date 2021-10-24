@@ -1,7 +1,7 @@
 package THIRD;
 
 /**
- * 
+ * Q3) A) Write a Java program to illustrate collection class Array List.
  */
 
 import java.util.ArrayList;
@@ -37,3 +37,20 @@ public class ArrayListDemo {
         System.out.println("Elements in ArrayList after clear:" + cars);
     }
 }
+
+// Output:
+// Elements in ArrayList:[Volvo, BMW, Ford, Mazda]
+// Element at 0th index: Volvo
+//
+// 0th index element after change: Opel
+// After removal of 0th index element from ArrayList:[BMW, Ford, Mazda]
+// The size of the ArrayList:3
+// Using for loop parsing through ArrayList:
+// BMW
+// Ford
+// Mazda
+// Using for : each loop to parse through ArrayList:
+// BMW
+// Ford
+// Mazda
+// Elements in ArrayList after clear:[]
