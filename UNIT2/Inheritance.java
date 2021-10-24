@@ -1,5 +1,3 @@
-package UNIT2;
-
 class Vehicle {
     protected String brand = "Ford";
 

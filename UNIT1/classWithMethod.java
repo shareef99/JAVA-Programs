@@ -1,5 +1,3 @@
-package UNIT1;
-
 class BoxWithMethod {
     int h;
     int w;

@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class compoundAssignment {
     public static void main(String[] args) {
         int a = 1;

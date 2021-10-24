@@ -1,5 +1,3 @@
-package UNIT3;
-
 public class MainThread {
     public static void main(String[] args) {
         Thread t = Thread.currentThread();

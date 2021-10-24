@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class basicMaths {
     public static void main(String[] args) {
         System.out.println("Integer Arithmetic");

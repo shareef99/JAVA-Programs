@@ -1,5 +1,3 @@
-package UNIT3;
-
 /**
  * Q2) Illustrate with an example the throw statement by manually throwing an
  * arithmetic exception.

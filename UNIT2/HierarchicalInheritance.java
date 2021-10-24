@@ -1,5 +1,3 @@
-package UNIT2;
-
 class ClassA {
     void showA() {
         System.out.println("Show method of A class");

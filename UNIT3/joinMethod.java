@@ -1,5 +1,3 @@
-package UNIT3;
-
 /**
  * Q7) Explain isAlive() and join() methods with an example. (Join Method)
  */

@@ -1,4 +1,10 @@
 {
     "cSpell.words": ["abcq", "Recaught", "Tuut"],
-    "java.project.sourcePaths": []
+    "java.project.sourcePaths": [
+        "UNIT4",
+        "UNIT2",
+        "UNIT1",
+        "LABPROGRAMS",
+        "UNIT3"
+    ]
 }

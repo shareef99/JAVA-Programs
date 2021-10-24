@@ -1,5 +1,3 @@
-package UNIT2;
-
 class SuperClass {
     int i, j;
 

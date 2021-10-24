@@ -1,5 +1,3 @@
-package UNIT3;
-
 // Q5) Explain the flow of controls in exception handling programs with example.
 // Q9) Discuss the exception handling mechanism in Java with example.
 // What is an exception?Explain how exceptions are handled in Java with suitable example.

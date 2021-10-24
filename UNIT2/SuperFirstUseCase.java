@@ -1,5 +1,3 @@
-package UNIT2;
-
 /**
  * super keyword has two use case. 1) Calls the super(parent) class constructor.
  * 2) Access member(attributes) of the super(parent) class. Here we will see

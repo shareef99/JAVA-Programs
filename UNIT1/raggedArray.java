@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class raggedArray {
     public static void main(String[] args) {
         // Creating two dimensional array.

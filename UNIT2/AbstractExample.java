@@ -1,5 +1,3 @@
-package UNIT2;
-
 abstract class X {
     abstract void callMe();
 

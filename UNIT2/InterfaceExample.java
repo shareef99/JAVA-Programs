@@ -1,5 +1,3 @@
-package UNIT2;
-
 interface Callback {
     void callback(int para);
 }

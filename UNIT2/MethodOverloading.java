@@ -1,5 +1,3 @@
-package UNIT2;
-
 class ParentClass {
     int i, j;
 

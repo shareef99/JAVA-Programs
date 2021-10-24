@@ -1,6 +1,4 @@
-package UNIT1;
-
-class Box {
+class Box1 {
     int w;
     int h;
     int d;
@@ -8,7 +6,7 @@ class Box {
 
 public class basicClass {
     public static void main(String[] args) {
-        Box box = new Box();
+        Box1 box = new Box1();
         // Assign values to box.
         box.w = 1;
         box.h = 2;

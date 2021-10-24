@@ -1,5 +1,3 @@
-package UNIT1;
-
 class Overload {
     void test() {
         System.out.println("No parameters");

@@ -1,5 +1,3 @@
-package UNIT3;
-
 /**
  * Q3) How do you restrict access to an object to one thread at a time? Write a
  * program to demonstrate synchronization. How are threads synchronized?

@@ -1,4 +1,4 @@
-package UNIT2.packages;
+package packages;
 
 /**
  * Q4) Explain creating and using packages in Java with example program.

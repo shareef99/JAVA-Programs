@@ -1,5 +1,3 @@
-package UNIT2;
-
 class Box {
     private double width;
     private double height;

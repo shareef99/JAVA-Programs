@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class Qno10 {
     public static void main(String[] args) {
         try {

@@ -1,5 +1,3 @@
-package UNIT3;
-
 /**
  * Q1) What are the different ways of creating a thread? Explain any one method
  * with example. (3-times) (Runnable Example)

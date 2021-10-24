@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class forVSforEach {
     public static void main(String[] args) {
         // Adding N numbers with regular for loop.

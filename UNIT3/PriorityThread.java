@@ -1,5 +1,3 @@
-package UNIT3;
-
 public class PriorityThread extends Thread {
 
     public void run() {

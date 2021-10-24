@@ -1,5 +1,3 @@
-package UNIT3;
-
 public class Throw {
 
     static void demoProgram() {

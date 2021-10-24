@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class twoDArray {
     public static void main(String[] args) {
         // Creating two dimensional array with all zeros in it.

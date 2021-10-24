@@ -1,10 +1,9 @@
-package UNIT2;
 
 /**
  * Importing Calculator package
  */
 
-import UNIT2.packages.Calculator; // You don't have to write UNIT2 in exam
+import packages.Calculator; // You don't have to write UNIT2 in exam
 
 public class UsingCalculatorPackage {
     public static void main(String[] args) {

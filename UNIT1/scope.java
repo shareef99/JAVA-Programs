@@ -1,5 +1,3 @@
-package UNIT1;
-
 public class scope {
     public static void main(String[] args) {
         // Outer Scope

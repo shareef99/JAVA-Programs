@@ -1,5 +1,3 @@
-package UNIT3;
-
 /**
  * Q4) Write a program for creating and using user-defined exceptions.
  */

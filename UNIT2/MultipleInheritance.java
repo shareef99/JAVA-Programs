@@ -1,5 +1,3 @@
-package UNIT2;
-
 interface SuperClass1 {
     void show1();
 }

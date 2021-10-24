@@ -1,5 +1,3 @@
-package UNIT3;
-
 public class UncaughtException {
     public static void main(String[] args) {
         int data = 50 / 0;

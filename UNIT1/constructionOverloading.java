@@ -1,5 +1,3 @@
-package UNIT1;
-
 class BoxConstructorOverloading {
     int w;
     int h;
