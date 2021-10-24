@@ -1,7 +1,8 @@
+package FORTH;
+
 /**
- * Q3) How do you restrict access to an object to one thread at a time? Write a
- * program to demonstrate synchronization. How are threads synchronized?
- * Illustrate with an example.
+ * Q4) B) Write a Java program to illustrate the concept of Thread
+ * synchronization.
  */
 
 class CallMe {
