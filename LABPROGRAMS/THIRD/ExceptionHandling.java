@@ -1,6 +1,8 @@
-// Q5) Explain the flow of controls in exception handling programs with example.
-// Q9) Discuss the exception handling mechanism in Java with example.
-// What is an exception?Explain how exceptions are handled in Java with suitable example.
+package THIRD;
+
+/**
+ * 3) B) Write a Java program to implement the concept of exception handling.
+ */
 
 public class ExceptionHandling {
     public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
@@ -15,6 +17,6 @@ public class ExceptionHandling {
     }
 }
 
-// Output :-
+// Output:
 // Array index out of bounds
 // Finally block code.

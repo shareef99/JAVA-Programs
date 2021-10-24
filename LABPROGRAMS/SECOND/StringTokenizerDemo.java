@@ -1,3 +1,4 @@
+package SECOND;
 
 /**
  * Q2. Write a Java program that reads a line of integers, and displays each
