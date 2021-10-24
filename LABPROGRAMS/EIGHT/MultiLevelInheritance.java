@@ -1,6 +1,8 @@
+package EIGHT;
+
 /**
- * Q3. Write a Java program to illustrate the concept of Single level and Multi
- * level Inheritance. (b) Multi Level Inheritance
+ * Q8) A) Write a Java program to illustrate the concept of Single level and
+ * Multi level Inheritance. (b) MultiLevelInheritance
  */
 
 class FirstLevel {
@@ -32,5 +34,4 @@ public class MultiLevelInheritance {
 
 // Output:-
 // show method of First Level class
-// show method of Second Level class
 // show method of Third Level class
