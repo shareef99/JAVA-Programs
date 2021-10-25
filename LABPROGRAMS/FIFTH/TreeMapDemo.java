@@ -36,7 +36,6 @@ public class TreeMapDemo {
             Map.Entry me = (Map.Entry) i.next();
             System.out.println(me.getKey() + ": " + me.getValue());
         }
-        System.out.println();
     }
 }
 
