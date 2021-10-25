@@ -18,13 +18,16 @@ public class ArrayListDemo {
 
         System.out.println("Elements in ArrayList:" + cars);
         System.out.println("Element at 0th index: " + cars.get(0));
+
         cars.set(0, "Opel"); // changing element at 0th index
-        System.out.println("\n0th index element after change: " + cars.get(0));
+        System.out.println("0th index element after change: " + cars.get(0));
+
         cars.remove(0); // Removing an element at 0th index
         System.out.println("After removal of 0th index element from ArrayList:" + cars);
-        System.out.println("The size of the ArrayList:" + cars.size());
-        System.out.println("Using for loop parsing through ArrayList:");
 
+        System.out.println("The size of the ArrayList:" + cars.size());
+
+        System.out.println("Using for loop parsing through ArrayList:");
         for (int i = 0; i < cars.size(); i++)
             System.out.println(cars.get(i));
 
