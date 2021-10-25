@@ -19,11 +19,11 @@ public class TreeMapDemo {
         TreeMap<String, Double> tm = new TreeMap<String, Double>();
 
         // Put elements to the map
-        tm.put("Zara", new Double(3434.34));
-        tm.put("Mahnaz", new Double(123.22));
-        tm.put("Ayan", new Double(1378.00));
-        tm.put("Daisy", new Double(99.22));
-        tm.put("Qadir", new Double(-19.08));
+        tm.put("Zara", 3434.34);
+        tm.put("Mahnaz", 123.22);
+        tm.put("Ayan", 1378.00);
+        tm.put("Daisy", 99.22);
+        tm.put("Qadir", -19.08);
 
         // Get a set of the entries
         Set set = tm.entrySet();
