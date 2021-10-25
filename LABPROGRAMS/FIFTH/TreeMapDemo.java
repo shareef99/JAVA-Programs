@@ -16,7 +16,7 @@ public class TreeMapDemo {
     public static void main(String[] args) {
 
         // Create a TreeMap
-        TreeMap tm = new TreeMap();
+        TreeMap<String, Double> tm = new TreeMap<String, Double>();
 
         // Put elements to the map
         tm.put("Zara", new Double(3434.34));
@@ -34,16 +34,9 @@ public class TreeMapDemo {
         // Display elements
         while (i.hasNext()) {
             Map.Entry me = (Map.Entry) i.next();
-            System.out.print(me.getKey() + ": ");
-            System.out.println(me.getValue());
+            System.out.println(me.getKey() + ": " + me.getValue());
         }
         System.out.println();
-
-        // Deposit 1000 into Zara's account
-        double balance = ((Double) tm.get("Zara")).doubleValue();
-        tm.put("Zara", new Double(balance + 1000));
-
-        System.out.println("Zara's new balance: " + tm.get("Zara"));
     }
 }
 
