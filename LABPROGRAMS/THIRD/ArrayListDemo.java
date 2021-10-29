@@ -28,11 +28,6 @@ public class ArrayListDemo {
         for (int i = 0; i < cars.size(); i++)
             System.out.println(cars.get(i));
 
-        System.out.println("Using for : each loop to parse through ArrayList:");
-
-        for (String i : cars)
-            System.out.println(i);
-
         cars.clear(); // Clearing all elements in an ArrayList
         System.out.println("Elements in ArrayList after clear:" + cars);
     }
@@ -46,10 +41,6 @@ public class ArrayListDemo {
 // After removal of 0th index element from ArrayList:[BMW, Ford, Mazda]
 // The size of the ArrayList:3
 // Using for loop parsing through ArrayList:
-// BMW
-// Ford
-// Mazda
-// Using for : each loop to parse through ArrayList:
 // BMW
 // Ford
 // Mazda

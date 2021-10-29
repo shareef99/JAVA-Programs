@@ -45,5 +45,3 @@ public class TreeMapDemo {
 // Mahnaz: 123.22
 // Qadir: -19.08
 // Zara: 3434.34
-//
-// Zara's new balance: 4434.34

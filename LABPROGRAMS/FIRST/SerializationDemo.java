@@ -20,19 +20,19 @@ class Serialization implements java.io.Serializable {
 public class SerializationDemo {
     public static void main(String[] args) {
         Serialization obj = new Serialization(1, "Java Programming");
-        String fname = "file.txt";
+        String fName = "file.txt";
 
         // Serialization
         try {
             // Saving of object in a file
-            FileOutputStream fout = new FileOutputStream(fname);
-            ObjectOutputStream out = new ObjectOutputStream(fout);
+            FileOutputStream fOut = new FileOutputStream(fName);
+            ObjectOutputStream out = new ObjectOutputStream(fOut);
 
             // Method for serialization of object
             out.writeObject(obj);
 
             out.close();
-            fout.close();
+            fOut.close();
 
             System.out.println("Object has been serialized");
         } catch (IOException ie) {
@@ -42,7 +42,7 @@ public class SerializationDemo {
         // Deserialization
         try {
             // Reading the object from a file
-            FileInputStream fin = new FileInputStream(fname);
+            FileInputStream fin = new FileInputStream(fName);
             ObjectInputStream in = new ObjectInputStream(fin);
 
             // Method for deserialization of object

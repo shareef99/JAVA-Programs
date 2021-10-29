@@ -9,7 +9,7 @@ import java.util.LinkedList;
 public class LinkedListDemo {
     public static void main(String[] args) {
         // create a linked list
-        LinkedList ll = new LinkedList();
+        LinkedList<String> ll = new LinkedList<String>();
 
         // add elements to the linked list
         ll.add("F");
@@ -33,8 +33,8 @@ public class LinkedListDemo {
         System.out.println("ll after deleting first and last: " + ll);
 
         // get and set a value
-        Object val = ll.get(2);
-        ll.set(2, (String) val + " Changed");
+        String val = ll.get(2);
+        ll.set(2, val + " Changed");
         System.out.println("ll after change: " + ll);
     }
 }

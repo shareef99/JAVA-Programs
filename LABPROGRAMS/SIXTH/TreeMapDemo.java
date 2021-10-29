@@ -16,7 +16,7 @@ public class TreeMapDemo {
     public static void main(String[] args) {
 
         // Create a TreeMap
-        TreeMap tm = new TreeMap();
+        TreeMap<String, Double> tm = new TreeMap<String, Double>();
 
         // Put elements to the map
         tm.put("Zara", 3434.34);
@@ -45,5 +45,3 @@ public class TreeMapDemo {
 // Mahnaz: 123.22
 // Qadir: -19.08
 // Zara: 3434.34
-//
-// Zara's new balance: 4434.34
